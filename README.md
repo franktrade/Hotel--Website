@@ -42,9 +42,7 @@ Cascading Style Sheets (CSS) is a style sheet language used for describing the p
 
 • HTML
 • CSS
-• JavaScript
-• Php
-• jQuery
+
 
 
 **INNOVATION AND CONTRIBUTION TO THE PROJECT**
