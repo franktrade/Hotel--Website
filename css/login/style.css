@@ -1,0 +1,119 @@
+body {
+  /* 
+  -Background color is #344a72
+  */
+  background-color:#344a72;
+  font-family: 'raleway',sans-serif;
+  line-height: 1.8em;
+ }
+
+ a {
+   /* 
+   Underlined links are ugly :)
+  */
+  color: #f4f4f4;
+  text-decoration: none;
+ }
+
+ #container {
+   /* 
+   -Remember, margin: auto on left and right will center a block element 
+   -I would also set a "max-width" for responsiveness
+   -May want to add some padding
+   */
+   margin:30px auto;
+   border:5px solid white ;
+   border-radius: 10px;
+   max-width: 600px;
+   padding: 20px;
+ }
+
+ .form-wrap{
+   /* 
+     This is the white area around the form and heading, etc
+   */
+  background: #f4f4f4;
+  padding: 15px 30px;
+  color: #333;
+  max-width: 550px;
+ }
+
+ .form-wrap h1,.form-wrap p {
+   /* 
+     May want to center these
+   */
+   text-align: center; 
+ }
+ .form-wrap, .form-group{
+   /* 
+     Each label, input is wrapped in .form-group
+   */
+   margin-top: 15px;
+
+ }
+
+ .form-wrap, .form-group label {
+   /* 
+     Label should be turned into a block element
+   */
+
+   display: block;
+   color: black;
+   /* line-height: 2.4em; */
+   /* padding-right: 20px; */
+   /* padding-left: 12px; */
+ 
+ }
+
+ .form-wrap,.form-group input {
+   /* 
+     Inputs should reach accross the .form-wrap 100% and have some padding
+   */
+   width: 90%;
+   padding: 10px;
+   border: #ddd 1px solid;
+   border-radius: 10px;
+ }
+ .btn{
+   /* 
+   Button should wrap accross 100% and display as block
+   Background color for button is #49c1a2
+   */
+   background-color:black;
+   display: block;
+   width: 100%;
+   padding: 10px;
+   margin-top: 20px;
+   color: #ffff;
+   cursor: pointer;
+   border-radius: 18px;
+ }
+
+ .btn:hover {
+   /* 
+   Hover background color for button is #37a08e
+   */
+   background-color: #37a08e;
+ }
+
+ .form-wrap .bottom-text {
+    /* 
+     Bottom text is smaller
+   */
+   font-size: 13px;
+   margin-top: 20px;
+ }
+
+ footer {
+   /* 
+   Should be centered
+   */
+   text-align: center;
+ }
+
+ footer a {
+   /* 
+   Footer link color is #49c1a2
+   */
+   color:#49c1a2;
+ }
